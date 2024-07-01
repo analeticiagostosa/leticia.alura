@@ -26,3 +26,13 @@ alternativas: [
 "Automoção de tarefas repetitivas e aumento da demanda por habilidades relacionadas à IA, como programação e análise de dados"
 ]
 }
+
+let atual = 0;
+let perguntaAtual;
+
+function mostraPergunta(){
+    perguntaAtual = pergunta[Atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+}
+
+mostraPergunta();
